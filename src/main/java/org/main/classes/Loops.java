@@ -143,6 +143,23 @@ public class Loops {
         System.out.println("Odd: " + oddCount);
     }
 
+    public void cubeCalculator() {
+        while (true) {
+            System.out.print("Enter a number (or 'end' to stop): ");
+            String input = scanner.nextLine();
+
+            if (input.equals("end")) {
+                break;
+            }
+
+            try {
+                int number = Integer.parseInt(input);
+                int cube = number * number * number;
+                System.out.println("The cube of " + number + " is " + cube);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a valid integer or 'end'.");
+            }
+        }
+    }
+
 }
-
-
