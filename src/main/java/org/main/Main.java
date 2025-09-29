@@ -89,7 +89,7 @@ public class Main {
 
         System.out.println("Debt to unknown person: " + mattsIOU.howMuchDoIOweTo("Unknown"));
 
-        System.out.println("\n=== LicensePlate Class Testing ===");
+        System.out.println("LicensePlate Class Testing");
         LicensePlate li1 = new LicensePlate("FI", "ABC-123");
         LicensePlate li2 = new LicensePlate("FI", "UXE-465");
         LicensePlate li3 = new LicensePlate("D", "B WQ-431");
